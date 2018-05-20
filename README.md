@@ -1,7 +1,7 @@
 myapp
 ===
 
-> DESCRIPTION
+> This is some boilerplate for Curses apps
 
 setup
 ---
