@@ -35,7 +35,7 @@ def main(scr):
             scr.clear()
 
             # ...
-            scr.addstr(1, 1, 'Hello MyWorld')
+            scr.addstr(1, 1, 'myapp')
 
             # refresh
 
