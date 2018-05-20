@@ -31,7 +31,7 @@ so that it can be run with the ``your-app-name`` command.
 
 ```bash
 git remote set-url origin YOUR_REPO_URL
-``` 
+```
 
 usage
 ---
