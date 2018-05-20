@@ -1,0 +1,13 @@
+# console
+click
+click-log
+
+# testing
+pytest
+pytest-cov
+pytest-mock
+pytest-sugar
+
+# data
+factory_boy
+pytest-factoryboy
