@@ -94,14 +94,14 @@ pipinstall:
 # if was not called called directly (called as dependency)
 ifneq ($(MAKECMDGOALS),pipinstall)
 	@$(call print_h2,"installing requirements ...")
-	@pip3 install -r $(REQUIREMENTS_FILE).txt
+	@pip install -r $(REQUIREMENTS_FILE).txt
 # requirements txt does not exists, so prompt user to run compile
 else ifeq (,$(wildcard $(REQUIREMENTS_FILE).txt))
 	$(error Requirements are not compiled run make pipcompile first)
 # requirements txt exists, so install
 else
 	@$(call print_h1,"installing requirements ...")
-	@pip3 install -r $(REQUIREMENTS_FILE).txt
+	@pip install -r $(REQUIREMENTS_FILE).txt
 	@$(call print_h1,"... success")
 endif
 
